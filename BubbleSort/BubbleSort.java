@@ -18,6 +18,13 @@ public class BubbleSort {
           temp = arr[j];
           arr[j] = arr[j + 1];
           arr[j + 1] = temp;
+          System.out.println("Swapping " + arr[j] + " and " + arr[j + 1]);
+          System.out.println(java.util.Arrays.toString(arr));
+          System.out.println("Current Array: ");
+          for (int k = 0; k < arr.length; k++) {
+            System.out.print(arr[k] + " ");
+          }
+          System.out.println("\n");
         }
       }
     }
